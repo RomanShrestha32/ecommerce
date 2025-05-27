@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.category-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid black; /* Custom black border */
+  }
+
+  .category-slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on Chrome/Safari */
+  }
+
+  .category-slider {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+.nav-item{
+  font-size: 1.2rem; /* Adjust as needed */
+}
+.topBox{
+  background: url('image/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  padding-top: 50px;
+}
+
+.offer{
+  background: white;
+  display: inline-block;
+  padding: 0px 4px;
+  border-radius: 10px;
+  color: black;
+  height: 30px;
+  width: 215px;
+}
+
+.btn-custom{
+  border-radius: 15px;
+  background: rgb(93, 21, 21);
+  color: white;
+    font-size: 1.2rem; /* Adjust as needed */
+
+}
+
+.customePosition{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+ .btn.btn-light {
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+
+
+
+.offerBox{
+  height: 450px;
+  width: 100%;
+  background: url('image/new1.avif');
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+.offerBox1{
+  height: 450px;
+  width: 100%;
+  background: url('image/new2.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.offerCard{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.offerCard h1{
+  color: white;
+  font-size: 60px;
+}
+
+.TrendingCardMain{
+  width: 100%;
+  height: 822px;
+  overflow: hidden;
+}
+
+.TrendingCardMain img{
+  height: 93%;
+}
+
+.TrendingCard{
+  height: 400px;
+  overflow: hidden;
+}
+
+.TrendingButtom{
+  width: 100%;
+  background-color: rgb(106, 25, 25);
+  padding: 5px 10px;
+  color: white;
+}
+
+.TrendingCard img{
+  height: 88%;
+}
+.card{
+border-radius: 20px;
+  padding: 10px 20px;
+  height: 500px;
+  width: 300px;
+}
+.img{
+  width: 260px;
+  height: 400px;
+}
